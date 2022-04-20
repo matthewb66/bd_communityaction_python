@@ -25,7 +25,7 @@ setuptools.setup(
         "networkx",
         "requests",
         "semver",
-        "lxml",
+        "lxml==4.6.3",
         "azure-devops",
     ],
     classifiers=[
