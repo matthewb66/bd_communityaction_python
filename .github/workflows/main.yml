@@ -25,7 +25,8 @@
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -i https://test.pypi.org/simple/ blackduck_direct_scan_action
+          pip install blackduck_direct_scan_action
+          python setup.py install
  
       # Run manual full/intelligent scan
       - name: Run Black Duck Full Scan
